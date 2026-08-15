@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DELAUNAY BOOK | Nicholas Van-Orton | NVO987</title>
+
+    <meta name="description"
+        content="Delaunay Book — A multilingual digital library dedicated to scholarly research in modern and contemporary visual culture, art history, colour theory and generative art.">
+    <meta name="keywords"
+        content="Delaunay Book, Sonia Delaunay, Nicholas Van-Orton, NVO987, art history, visual culture, modern art, contemporary art, colour theory, color theory, simultaneism, generative art, digital art, scholarly research, digital library">
+    <meta name="author" content="Nicholas Van-Orton">
+
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <link rel="canonical" href="https://delaunaybook.eu/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="DELAUNAY BOOK">
+    <meta property="og:title" content="DELAUNAY BOOK | Digital Library | NVO987">
+    <meta property="og:description"
+        content="A multilingual digital library dedicated to scholarly research in modern and contemporary visual culture, art history, colour theory and generative art.">
+    <meta property="og:url" content="https://delaunaybook.eu/">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="DELAUNAY BOOK | Digital Library | NVO987">
+    <meta name="twitter:description"
+        content="A multilingual digital library dedicated to scholarly research in modern and contemporary visual culture, art history, colour theory and generative art.">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="color-scheme" content="light">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Digital Identity -->
+    <link rel="alternate"
+        type="application/did+json"
+        href="https://identity.nvo987.us/.well-known/did.json">
+
+    <link rel="alternate"
+        type="application/did+ld+json"
+        href="https://identity.nvo987.us/.well-known/did-configuration.json">
+
+    <meta name="did" content="did:web:identity.nvo987.us">
+
+    <link rel="me" href="https://identity.nvo987.us">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": "https://delaunaybook.eu/#website",
+                "url": "https://delaunaybook.eu/",
+                "name": "DELAUNAY BOOK",
+                "description": "A multilingual digital library dedicated to scholarly research in modern and contemporary visual culture, art history, colour theory and generative art.",
+                "inLanguage": "en",
+                "publisher": {
+                    "@id": "https://nvo987.us#person"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://nvo987.us#person",
+                "name": "Nicholas Van-Orton",
+                "url": "https://nvo987.us",
+                "identifier": {
+                    "@type": "PropertyValue",
+                    "propertyID": "DID Document",
+                    "value": "https://identity.nvo987.us/.well-known/did.json"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://delaunaybook.eu/#webpage",
+                "url": "https://delaunaybook.eu/",
+                "name": "DELAUNAY BOOK | Digital Library",
+                "isPartOf": {
+                    "@id": "https://delaunaybook.eu/#website"
+                },
+                "about": {
+                    "@id": "https://delaunaybook.eu/#library"
+                },
+                "inLanguage": "en"
+            },
+            {
+                "@type": "CollectionPage",
+                "@id": "https://delaunaybook.eu/#library",
+                "name": "Delaunay Book Digital Library",
+                "url": "https://delaunaybook.eu/",
+                "description": "Multilingual editions of scholarly books and research publications."
+            }
+        ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        /* ======================================================
+           RESET
+        ====================================================== */
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            background: #ffffff;
+            color: #171717;
+            font-family: "Inter", sans-serif;
+            font-weight: 300;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+        /* ======================================================
+           NAVIGATION
+        ====================================================== */
+
+        .site-nav {
+            width: 100%;
+            border-bottom: 1px solid #e8e8e8;
+            background: rgba(255, 255, 255, 0.96);
+        }
+
+        .nav-inner {
+            width: min(1400px, calc(100% - 80px));
+            min-height: 88px;
+            margin: 0 auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .nav-brand {
+            font-family: "Cormorant Garamond", serif;
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-meta {
+            color: #777;
+            font-size: 11px;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+
+
+        /* ======================================================
+           HERO
+        ====================================================== */
+
+        .hero {
+            width: min(1400px, calc(100% - 80px));
+            min-height: 680px;
+            margin: 0 auto;
+
+            display: grid;
+            grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.5fr);
+            align-items: end;
+
+            padding: 130px 0 100px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .hero-copy {
+            max-width: 900px;
+        }
+
+        .kicker,
+        .section-label {
+            margin: 0 0 22px;
+
+            color: #777;
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            margin: 0;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(70px, 9vw, 138px);
+            font-weight: 300;
+            line-height: 0.88;
+            letter-spacing: -0.045em;
+        }
+
+        .hero-title em {
+            font-weight: 300;
+        }
+
+        .hero-subtitle {
+            margin: 42px 0 0;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(27px, 3vw, 42px);
+            font-weight: 300;
+            line-height: 1.15;
+        }
+
+        .hero-index {
+            max-width: 330px;
+            padding-bottom: 8px;
+        }
+
+        .hero-index-number {
+            margin: 0 0 18px;
+
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        .hero-index-text {
+            margin: 0;
+
+            color: #666;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+
+        /* ======================================================
+           INTRODUCTION
+        ====================================================== */
+
+        .intro {
+            width: min(1400px, calc(100% - 80px));
+            margin: 0 auto;
+            padding: 125px 0;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 100px;
+        }
+
+        .intro-lead {
+            max-width: 850px;
+            margin: 0 0 42px;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(31px, 4vw, 52px);
+            font-weight: 300;
+            line-height: 1.08;
+            letter-spacing: -0.02em;
+        }
+
+        .intro-copy {
+            max-width: 700px;
+            margin: 0;
+
+            color: #666;
+            font-size: 15px;
+            line-height: 1.95;
+        }
+
+
+        /* ======================================================
+           BOOK DATA
+        ====================================================== */
+
+        .book-data {
+            width: min(1400px, calc(100% - 80px));
+            margin: 0 auto;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .data-item {
+            min-height: 145px;
+            padding: 35px 30px 35px 0;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            border-right: 1px solid #e8e8e8;
+        }
+
+        .data-item:not(:first-child) {
+            padding-left: 30px;
+        }
+
+        .data-item:last-child {
+            border-right: 0;
+        }
+
+        .data-label {
+            margin-bottom: 10px;
+
+            color: #888;
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+
+        .data-value {
+            font-family: "Cormorant Garamond", serif;
+            font-size: 23px;
+            font-weight: 400;
+        }
+
+
+        /* ======================================================
+           DIGITAL LIBRARY
+        ====================================================== */
+
+        .library {
+            width: min(1400px, calc(100% - 80px));
+            margin: 0 auto;
+            padding: 130px 0;
+        }
+
+        .library-head {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 100px;
+
+            margin-bottom: 90px;
+        }
+
+        .library-title {
+            margin: 0;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(50px, 6vw, 88px);
+            font-weight: 300;
+            line-height: 0.95;
+            letter-spacing: -0.035em;
+        }
+
+        .library-note {
+            max-width: 650px;
+            margin: 0;
+
+            color: #666;
+            font-size: 15px;
+            line-height: 1.9;
+        }
+
+
+        /* ======================================================
+           LANGUAGE INDEX
+        ====================================================== */
+
+        .language-list {
+            border-top: 1px solid #171717;
+        }
+
+        .language {
+            display: grid;
+            grid-template-columns: 100px minmax(0, 1fr) 80px;
+            align-items: center;
+
+            min-height: 145px;
+            padding: 20px 0;
+
+            border-bottom: 1px solid #e8e8e8;
+
+            transition:
+                padding 0.35s ease,
+                background 0.35s ease;
+        }
+
+        .language:hover {
+            padding-left: 22px;
+            padding-right: 22px;
+            background: #fafafa;
+        }
+
+        .language-number {
+            color: #888;
+            font-size: 11px;
+            letter-spacing: 0.15em;
+        }
+
+        .language-main {
+            display: flex;
+            align-items: baseline;
+            gap: 30px;
+        }
+
+        .language-name {
+            margin: 0;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(34px, 4vw, 52px);
+            font-weight: 300;
+            line-height: 1;
+        }
+
+        .language-native {
+            color: #888;
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .language-arrow {
+            justify-self: end;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: 34px;
+            font-weight: 300;
+        }
+
+
+        /* ======================================================
+           EDITION NOTE
+        ====================================================== */
+
+        .edition {
+            background: #f7f7f5;
+            padding: 130px 0;
+        }
+
+        .edition-inner {
+            width: min(1400px, calc(100% - 80px));
+            margin: 0 auto;
+
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 100px;
+        }
+
+        .edition-title {
+            margin: 0;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(50px, 6vw, 82px);
+            font-weight: 300;
+            line-height: 0.95;
+            letter-spacing: -0.035em;
+        }
+
+        .edition-copy {
+            max-width: 700px;
+        }
+
+        .edition-copy p {
+            margin: 0 0 30px;
+
+            color: #5f5f5f;
+            font-size: 15px;
+            line-height: 1.95;
+        }
+
+        .edition-copy p:last-child {
+            margin-bottom: 0;
+        }
+
+
+        /* ======================================================
+           FOOTER
+        ====================================================== */
+
+        .footer {
+            background: #171717;
+            color: #ffffff;
+            padding: 100px 0 40px;
+        }
+
+        .footer-inner {
+            width: min(1400px, calc(100% - 80px));
+            margin: 0 auto;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+
+            padding-bottom: 100px;
+        }
+
+        .footer-heading {
+            margin: 0 0 20px;
+
+            color: #888;
+            font-size: 10px;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+
+        .footer-link {
+            display: inline-block;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: clamp(25px, 3vw, 38px);
+            font-weight: 300;
+            line-height: 1.2;
+
+            border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+
+            transition:
+                color 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+        .footer-link:hover {
+            color: #cfcfcf;
+            border-color: #ffffff;
+        }
+
+        .footer-did {
+            font-size: clamp(20px, 2.5vw, 32px);
+        }
+
+        .footer-bottom {
+            padding-top: 30px;
+            border-top: 1px solid #383838;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            color: #777;
+            font-size: 10px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+        }
+
+        .footer-bottom span:nth-child(2) {
+            text-align: center;
+        }
+
+        .footer-bottom span:last-child {
+            text-align: right;
+        }
+
+
+        /* ======================================================
+           RESPONSIVE
+        ====================================================== */
+
+        @media (max-width: 900px) {
+
+            .nav-inner,
+            .hero,
+            .intro,
+            .book-data,
+            .library,
+            .edition-inner,
+            .footer-inner {
+                width: min(100% - 48px, 1400px);
+            }
+
+            .hero {
+                min-height: auto;
+                grid-template-columns: 1fr;
+                gap: 90px;
+                padding: 100px 0 80px;
+            }
+
+            .hero-index {
+                max-width: 550px;
+            }
+
+            .intro-grid,
+            .library-head,
+            .edition-inner {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+
+            .book-data {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .data-item:nth-child(2) {
+                border-right: 0;
+            }
+
+            .data-item:nth-child(3),
+            .data-item:nth-child(4) {
+                border-top: 1px solid #e8e8e8;
+            }
+
+            .language-main {
+                gap: 18px;
+            }
+
+            .footer-top {
+                gap: 60px;
+            }
+        }
+
+
+        @media (max-width: 600px) {
+
+            .nav-inner {
+                min-height: 72px;
+            }
+
+            .nav-meta {
+                display: none;
+            }
+
+            .hero {
+                padding-top: 75px;
+            }
+
+            .hero-title {
+                font-size: clamp(58px, 17vw, 90px);
+            }
+
+            .intro,
+            .library {
+                padding: 85px 0;
+            }
+
+            .edition {
+                padding: 85px 0;
+            }
+
+            .book-data {
+                grid-template-columns: 1fr;
+            }
+
+            .data-item,
+            .data-item:not(:first-child) {
+                padding-left: 0;
+                padding-right: 0;
+
+                border-right: 0;
+                border-top: 1px solid #e8e8e8;
+            }
+
+            .data-item:first-child {
+                border-top: 0;
+            }
+
+            .language {
+                grid-template-columns: 50px minmax(0, 1fr) 40px;
+                min-height: 120px;
+            }
+
+            .language-main {
+                display: block;
+            }
+
+            .language-native {
+                display: block;
+                margin-top: 8px;
+            }
+
+            .language-name {
+                font-size: 34px;
+            }
+
+            .language-arrow {
+                font-size: 28px;
+            }
+
+            .footer {
+                padding-top: 75px;
+            }
+
+            .footer-top {
+                grid-template-columns: 1fr;
+                gap: 65px;
+                padding-bottom: 75px;
+            }
+
+            .footer-bottom {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .footer-bottom span,
+            .footer-bottom span:nth-child(2),
+            .footer-bottom span:last-child {
+                text-align: left;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<header class="site-nav">
+
+    <div class="nav-inner">
+
+        <a
+            class="nav-brand"
+            href="#top"
+            aria-label="Delaunay Book — Home"
+        >
+            Delaunay Book
+        </a>
+
+        <span class="nav-meta">
+            Nicholas Van-Orton · Digital Library
+        </span>
+
+    </div>
+
+</header>
+
+
+<main id="top">
+
+
+<!-- ======================================================
+     HERO
+====================================================== -->
+
+<section
+    class="hero"
+    aria-labelledby="hero-title"
+>
+
+    <div class="hero-copy">
+
+        <p class="kicker">
+            Delaunay Book
+        </p>
+
+        <h1
+            id="hero-title"
+            class="hero-title"
+        >
+            A multilingual
+            <em>library</em>
+            of research.
+        </h1>
+
+        <p class="hero-subtitle">
+            Modern Art · Visual Culture · Colour · Generative Systems
+        </p>
+
+    </div>
+
+
+    <div class="hero-index">
+
+        <p class="hero-index-number">
+            The Library
+        </p>
+
+        <p class="hero-index-text">
+            A multilingual digital library presenting
+            scholarly books and research editions across
+            several European languages.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     INTRODUCTION
+====================================================== -->
+
+<section
+    class="intro"
+    aria-labelledby="intro-title"
+>
+
+    <div class="intro-grid">
+
+        <div>
+
+            <h2
+                id="intro-title"
+                class="section-label"
+            >
+                Delaunay Book
+            </h2>
+
+        </div>
+
+
+        <div>
+
+            <p class="intro-lead">
+                A single research project,
+                developed across languages.
+            </p>
+
+            <p class="intro-copy">
+                Delaunay Book brings together multilingual
+                editions of scholarly research concerned
+                with visual culture, modern and contemporary
+                art, colour theory, perception, material
+                systems and generative artistic structures.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     LIBRARY
+====================================================== -->
+
+<section
+    class="library"
+    aria-labelledby="library-title"
+>
+
+    <div class="library-head">
+
+        <div>
+
+            <p class="section-label">
+                Editions
+            </p>
+
+            <h2
+                id="library-title"
+                class="library-title"
+            >
+                Choose a
+                language.
+            </h2>
+
+        </div>
+
+
+        <p class="library-note">
+            Select the language of the edition you wish
+            to explore. Each edition follows the same
+            visual identity and presents the corresponding
+            scholarly publication in its original language.
+        </p>
+
+    </div>
+
+
+    <nav
+        class="language-list"
+        aria-label="Book languages"
+    >
+
+        <a
+            class="language"
+            href="/en/"
+        >
+
+            <span class="language-number">
+                01
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    English
+                </span>
+
+                <span class="language-native">
+                    English Edition
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+
+        <a
+            class="language"
+            href="/hu/"
+        >
+
+            <span class="language-number">
+                02
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    Hungarian
+                </span>
+
+                <span class="language-native">
+                    Magyar kiadás
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+
+        <a
+            class="language"
+            href="/de/"
+        >
+
+            <span class="language-number">
+                03
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    German
+                </span>
+
+                <span class="language-native">
+                    Deutsche Ausgabe
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+
+        <a
+            class="language"
+            href="/it/"
+        >
+
+            <span class="language-number">
+                04
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    Italian
+                </span>
+
+                <span class="language-native">
+                    Edizione italiana
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+
+        <a
+            class="language"
+            href="/es/"
+        >
+
+            <span class="language-number">
+                05
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    Spanish
+                </span>
+
+                <span class="language-native">
+                    Edición española
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+
+        <a
+            class="language"
+            href="/fr/"
+        >
+
+            <span class="language-number">
+                06
+            </span>
+
+            <span class="language-main">
+
+                <span class="language-name">
+                    French
+                </span>
+
+                <span class="language-native">
+                    Édition française
+                </span>
+
+            </span>
+
+            <span class="language-arrow" aria-hidden="true">
+                →
+            </span>
+
+        </a>
+
+    </nav>
+
+</section>
+
+
+<!-- ======================================================
+     EDITION
+====================================================== -->
+
+<section
+    class="edition"
+    aria-labelledby="edition-title"
+>
+
+    <div class="edition-inner">
+
+        <div>
+
+            <p class="section-label">
+                The Editions
+            </p>
+
+            <h2
+                id="edition-title"
+                class="edition-title"
+            >
+                One visual
+                language.
+            </h2>
+
+        </div>
+
+
+        <div class="edition-copy">
+
+            <p>
+                The Delaunay Book editions are presented
+                through a unified digital architecture.
+                Typography, spacing, navigation and visual
+                structure remain consistent across languages.
+            </p>
+
+            <p>
+                The language changes; the identity remains.
+                This creates a coherent international
+                research platform while allowing each
+                edition to exist independently in its
+                respective linguistic context.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-top">
+
+            <div>
+
+                <h3 class="footer-heading">
+                    Contact
+                </h3>
+
+                <a
+                    class="footer-link"
+                    href="mailto:contact@delaunaybook.eu"
+                >
+                    contact@delaunaybook.eu
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3 class="footer-heading">
+                    Digital Identity
+                </h3>
+
+                <a
+                    class="footer-link footer-did"
+                    href="https://identity.nvo987.us"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    did:web:identity.nvo987.us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                Nicholas Van-Orton
+            </span>
+
+            <span>
+                Delaunay Book
+            </span>
+
+            <span>
+                © 2026
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</main>
+
+</body>
+
+  </html> 
