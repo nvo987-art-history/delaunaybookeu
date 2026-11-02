@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/terms/"
+>
+
+  <foaf:Person rdf:about="https://nvo987.us/#person">
+
+    <foaf:name>Nicholas Van-Orton</foaf:name>
+
+    <foaf:homepage rdf:resource="https://nvo987.us/"/>
+
+    <foaf:img
+      rdf:resource="https://nvo987.us/images/nicholas-van-orton.jpg"
+    />
+
+    <foaf:title>
+      Independent researcher
+    </foaf:title>
+
+    <foaf:workplaceHomepage
+      rdf:resource="https://nvo987.fr/"
+    />
+
+    <foaf:publications
+      rdf:resource="https://delaunaybook.eu/"
+    />
+
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage
+          rdf:resource="https://orcid.org/"
+        />
+        <foaf:accountName>0009-0007-4628-1871</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+  </foaf:Person>
+
+
+  <foaf:Organization rdf:about="https://delaunaybook.eu/#organization">
+
+    <foaf:name>Delaunay Book – Independent Publisher</foaf:name>
+
+    <foaf:homepage rdf:resource="https://delaunaybook.eu/"/>
+
+    <foaf:logo
+      rdf:resource="https://delaunaybook.eu/images/logo.jpg"
+    />
+
+    <foaf:mbox rdf:resource="mailto:contact@delaunaybook.eu"/>
+
+    <dc:description>
+      Independent publishing initiative focused on research-based
+      books, scholarly publications, art history, visual culture,
+      and interdisciplinary cultural research.
+    </dc:description>
+
+  </foaf:Organization>
+
+
+  <foaf:Document rdf:about="https://delaunaybook.eu/">
+
+    <foaf:primaryTopic
+      rdf:resource="https://nvo987.us/#person"
+    />
+
+    <dc:title>
+      Color as a Generative Principle in the Work of Sonia Delaunay
+    </dc:title>
+
+    <dc:creator
+      rdf:resource="https://nvo987.us/#person"
+    />
+
+    <dc:publisher
+      rdf:resource="https://delaunaybook.eu/#organization"
+    />
+
+    <dc:language>en</dc:language>
+
+    <dc:subject>Art history</dc:subject>
+    <dc:subject>Colour theory</dc:subject>
+    <dc:subject>Visual culture</dc:subject>
+    <dc:subject>Generative art</dc:subject>
+
+  </foaf:Document>
+
+</rdf:RDF>
