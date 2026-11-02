@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+
+  <channel>
+
+    <title>DELAUNAY BOOK</title>
+
+    <link>https://delaunaybook.eu/</link>
+
+    <description>
+      Color as a Generative Principle in the Work of Sonia Delaunay
+      by Nicholas Van-Orton. A multilingual scholarly publication
+      exploring colour, visual structure, modern art, textile
+      design, digital imaging, and generative art.
+    </description>
+
+    <language>en</language>
+
+    <managingEditor>contact@delaunaybook.eu (Nicholas Van-Orton)</managingEditor>
+
+    <webMaster>contact@delaunaybook.eu (Delaunay Book)</webMaster>
+
+    <generator>DELAUNAY BOOK</generator>
+
+    <docs>https://www.rssboard.org/rss-specification</docs>
+
+    <category>Art History</category>
+    <category>Visual Culture</category>
+    <category>Colour Theory</category>
+    <category>Generative Art</category>
+
+    <image>
+      <url>https://delaunaybook.eu/og-cover.jpg</url>
+      <title>DELAUNAY BOOK</title>
+      <link>https://delaunaybook.eu/</link>
+    </image>
+
+  </channel>
+
+</rss>
