@@ -1,0 +1,47 @@
+/* TEAM */
+
+Author: Nicholas Van-Orton
+Role: Independent researcher, author
+Publisher: Delaunay Book – Independent Publisher
+Website: https://delaunaybook.eu/
+Profile: https://nvo987.us/about.html
+Contact: contact@delaunaybook.eu
+
+/* PROJECT */
+
+Project: DELAUNAY BOOK
+Title: Color as a Generative Principle in the Work of Sonia Delaunay
+Year: 2026
+
+Description:
+A multilingual scholarly publishing initiative exploring colour
+as a generative principle in art, perception, textile design,
+digital imaging, and contemporary generative practices.
+
+/* TECHNOLOGY */
+
+HTML: HTML5
+Presentation: CSS
+Structured data: Schema.org JSON-LD
+Metadata: Open Graph, Twitter Cards
+Typography: Google Fonts
+Identity reference: did:web:identity.nvo987.us
+
+/* LANGUAGES */
+
+English
+Hungarian
+German
+Italian
+Spanish
+French
+
+/* CONTACT */
+
+Email: contact@delaunaybook.eu
+Website: https://delaunaybook.eu/
+
+/* COPYRIGHT */
+
+Copyright 2026 Nicholas Van-Orton.
+All rights reserved unless otherwise stated.
