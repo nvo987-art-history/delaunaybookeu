@@ -1,0 +1,75 @@
+# DELAUNAY BOOK — AI Information
+
+Website: https://delaunaybook.eu/
+Canonical URL: https://delaunaybook.eu/
+Project: DELAUNAY BOOK
+Author: Nicholas Van-Orton
+Publisher: Delaunay Book – Independent Publisher
+Year: 2026
+Primary language: English
+
+## Description
+
+DELAUNAY BOOK is a multilingual scholarly publishing initiative
+presenting research on colour as a generative and organising
+principle in the work of Sonia Delaunay.
+
+The project examines relationships between colour theory,
+visual perception, modern art, textile design, digital imaging,
+and generative art.
+
+## Language Editions
+
+English:
+https://delaunaybook.us/
+
+Hungarian:
+https://delaunaybook.eu/hu-szin-nvo987.html
+
+German:
+https://delaunaybook.eu/de-farbe-nvo987.html
+
+Italian:
+https://delaunaybook.eu/it-colore-nvo987.html
+
+Spanish:
+https://delaunaybook.eu/es-color-nvo987.html
+
+French:
+https://delaunaybook.eu/fr-couleur-nvo987.html
+
+## Topics
+
+- Sonia Delaunay
+- Colour theory
+- Colour perception
+- Modern painting
+- Textile design
+- Simultanism
+- Visual culture
+- Art history
+- Digital imaging
+- Generative art
+- Interdisciplinary research
+
+## Author
+
+Nicholas Van-Orton
+
+## Contact
+
+contact@delaunaybook.eu
+
+## Content and Copyright
+
+Content may be read and referenced subject to applicable law and
+the relevant rights holders' terms.
+
+This file does not grant permission to reproduce copyrighted
+content or to use content for model training.
+
+Automated access must comply with applicable law, website access
+controls, and the site's robots.txt directives.
+
+This file does not override authentication, technical restrictions,
+or other access policies.
