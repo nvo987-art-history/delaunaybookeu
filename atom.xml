@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <id>https://delaunaybook.eu/</id>
+
+  <title>DELAUNAY BOOK</title>
+
+  <subtitle>
+    Color as a Generative Principle in the Work of Sonia Delaunay
+    by Nicholas Van-Orton.
+  </subtitle>
+
+  <updated>2026-11-02T00:00:00Z</updated>
+
+  <author>
+    <name>Nicholas Van-Orton</name>
+  </author>
+
+  <link
+    href="https://delaunaybook.eu/"
+    rel="alternate"
+    type="text/html"
+  />
+
+  <link
+    href="https://delaunaybook.eu/atom.xml"
+    rel="self"
+    type="application/atom+xml"
+  />
+
+  <rights>
+    Copyright 2026 Nicholas Van-Orton.
+    All rights reserved unless otherwise stated.
+  </rights>
+
+  <category term="art history"/>
+  <category term="colour theory"/>
+  <category term="visual culture"/>
+  <category term="generative art"/>
+
+</feed>
