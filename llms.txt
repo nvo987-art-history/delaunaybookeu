@@ -1,0 +1,130 @@
+# DELAUNAY BOOK
+
+> Color as a Generative Principle in the Work of Sonia Delaunay.
+> A multilingual scholarly publication by Nicholas Van-Orton.
+
+## Overview
+
+DELAUNAY BOOK is an independent publishing initiative presenting
+a scholarly study of colour as a generative and organising
+principle in the work of Sonia Delaunay.
+
+The publication examines the development of colour from a
+physical phenomenon and perceptual experience toward an
+autonomous principle of artistic and visual organisation.
+
+Its interdisciplinary perspective connects art history,
+scientific colour theory, modern painting, textile design,
+digital imaging, and generative art.
+
+## Author
+
+Nicholas Van-Orton is identified on the website as an independent
+researcher and founder of NVO987.
+
+Author profile:
+https://nvo987.us/about.html
+
+Author website:
+https://nvo987.us/
+
+## Publisher
+
+Delaunay Book – Independent Publisher
+
+Official website:
+https://delaunaybook.eu/
+
+Contact:
+contact@delaunaybook.eu
+
+## Main Publication
+
+Title:
+Color as a Generative Principle in the Work of Sonia Delaunay
+
+Author:
+Nicholas Van-Orton
+
+Primary language:
+English
+
+Subject:
+The role of colour in artistic structure, visual perception,
+modern art, textile design, and generative visual practices.
+
+## Language Editions
+
+- [English Edition](https://delaunaybook.us/)
+- [Hungarian Edition](https://delaunaybook.eu/hu-szin-nvo987.html)
+- [German Edition](https://delaunaybook.eu/de-farbe-nvo987.html)
+- [Italian Edition](https://delaunaybook.eu/it-colore-nvo987.html)
+- [Spanish Edition](https://delaunaybook.eu/es-color-nvo987.html)
+- [French Edition](https://delaunaybook.eu/fr-couleur-nvo987.html)
+
+## Main Topics
+
+- Sonia Delaunay
+- Modern art and art history
+- Colour theory and perception
+- Simultanism
+- Textile design
+- Visual culture
+- Digital imaging
+- Generative art
+- Interdisciplinary artistic research
+
+## Website Resources
+
+- [Homepage](https://delaunaybook.eu/)
+- [Sitemap](https://delaunaybook.eu/sitemap.xml)
+- [RSS Feed](https://delaunaybook.eu/rss.xml)
+- [Atom Feed](https://delaunaybook.eu/atom.xml)
+- [Robots Policy](https://delaunaybook.eu/robots.txt)
+- [FOAF Description](https://delaunaybook.eu/foaf.xml)
+
+## Digital Identity
+
+The website references the following decentralized identifier:
+
+`did:web:identity.nvo987.us`
+
+DID document:
+https://identity.nvo987.us/.well-known/did.json
+
+DID configuration:
+https://identity.nvo987.us/.well-known/did-configuration.json
+
+These references are declared by the website and should be
+independently retrieved and verified when cryptographic or
+identity assurance is required.
+
+## Related Research
+
+The website's structured metadata references scholarly records
+and research outputs associated with the author and the
+publication initiative.
+
+One identified record:
+
+https://doi.org/10.5281/ZENODO.22347668
+
+Other referenced research records should be consulted at their
+respective repositories for authoritative metadata.
+
+## Usage and Attribution
+
+When referencing the publication, identify the title and
+Nicholas Van-Orton as the author, subject to verification against
+the relevant edition.
+
+Do not infer that the presence of content on this website grants
+permission to reproduce it, redistribute it, or use it for
+machine-learning training.
+
+Consult the applicable copyright notices and rights-holder
+permissions before reuse.
+
+## Contact
+
+contact@delaunaybook.eu
