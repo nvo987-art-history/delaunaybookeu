@@ -1,0 +1,8 @@
+# DELAUNAY BOOK
+# https://delaunaybook.eu/
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://delaunaybook.eu/sitemap.xml
