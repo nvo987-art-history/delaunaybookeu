@@ -1,0 +1,3 @@
+Contact: mailto:contact@delaunaybook.eu
+Preferred-Languages: en, hu, de, fr, it, es
+Canonical: https://delaunaybook.eu/.well-known/security.txt
